@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+<!-- Include Styles -->
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<div class="container">
+ <div class="row">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+</div>
+<div class="row">
+  <div class="col-md-8">.col-md-8</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+  <div class="col-md-6">.col-md-6</div>
+  <div class="col-md-6">.col-md-6</div>
+</div>
+
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+  <div class="col-xs-6">.col-xs-6</div>
+  <div class="col-xs-6">.col-xs-6</div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+<div class="row">
+  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+  <!-- Optional: clear the XS cols if their content doesn't match in height -->
+  <div class="clearfix visible-xs"></div>
+  <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+</div>
+
+<div class="row">
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+
+  <!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs"></div>
+
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
+  <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+  <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+</div>
+<div class="row">
+  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+</div>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+</div>
+
+<div class="row">
+  <div class="col-md-9">
+    Level 1: .col-md-9
+    <div class="row">
+      <div class="col-md-6">
+        Level 2: .col-md-6
+      </div>
+      <div class="col-md-6">
+        Level 2: .col-md-6
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+  <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+</div>
+
+<h1>h1. Bootstrap заголовок</h1>
+<h2>h2. Bootstrap заголовок</h2>
+<h3>h3. Bootstrap заголовок</h3>
+<h4>h4. Bootstrap заголовок</h4>
+<h5>h5. Bootstrap заголовок</h5>
+<h6>h6. Bootstrap заголовок</h6>
+<h1>h1. Bootstrap заголовок <small>Вторичный текст</small></h1>
+<h2>h2. Bootstrap заголовок <small>Вторичный текст</small></h2>
+<h3>h3. Bootstrap заголовок <small>Вторичный текст</small></h3>
+<h4>h4. Bootstrap заголовок <small>Вторичный текст</small></h4>
+<h5>h5. Bootstrap заголовок <small>Вторичный текст</small></h5>
+<h6>h6. Bootstrap заголовок <small>Вторичный текст</small></h6>
+
+
+<p>
+
+Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+
+Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+</p>
+
+<p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+
+<small>This line of text is meant to be treated as fine print.</small> <br>
+<strong>rendered as bold text</strong> <br>
+<em>rendered as italicized text</em> <br>
+
+
+<p class="text-left">Выравнивание по левому краю.</p>
+<p class="text-center">Выравнивание по центру.</p>
+<p class="text-right">Выравнивание по правому краю.</p>
+<p class="text-justify">Выравнивание текста по ширине</p>
+
+
+<abbr title="attribute">attr</abbr>
+
+<abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+<p> </p>
+
+<address>
+  <strong>Twitter, Inc.</strong><br>
+  795 Folsom Ave, Suite 600<br>
+  San Francisco, CA 94107<br>
+  <abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
+
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">first.last@example.com</a>
+</address>
+
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+</blockquote>
+
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+
+<blockquote class="blockquote-reverse">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+
+<ul class="list-inline">
+  <li>Test</li>
+  <li>Test</li>
+  <li>Test</li>
+</ul>
+
+
+
+
+<dl>
+  <dt>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam porro odit neque dicta, atque, voluptas incidunt maxime repudiandae necessitatibus consectetur sunt numquam impedit, ab quam amet sed nisi sequi dolorem?</dt>
+  <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate asperiores impedit voluptatibus deleniti omnis, cum in, nam tenetur soluta aperiam commodi ipsam, iusto ipsa eum minima voluptate non architecto ullam.</dd>
+</dl>
+
+<dl class="dl-horizontal">
+  <dt>Description</dt>
+  <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dicta ipsam quam ex modi ratione iusto vitae laboriosam enim accusamus perferendis eaque velit ducimus, sequi dolor, praesentium unde fugit. Unde?</dd>
+</dl>
+
+For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+<br>
+
+  To switch directories, type <kbd>cd</kbd> followed by the name of the directory.
+
+<pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+
+<pre class='pre-scrollable'>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ipsam amet rerum nihil voluptatibus aut nostrum tempora! Similique a temporibus, eligendi consectetur dignissimos, cupiditate unde eveniet quibusdam, assumenda ipsum fugit. 	
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat impedit dolorum molestiae aperiam laborum voluptatem error qui rem velit quos asperiores, laboriosam possimus cumque quae quo eligendi atque assumenda vel!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro odio, laborum cupiditate asperiores iusto sapiente distinctio at placeat pariatur! Architecto reiciendis blanditiis asperiores eum tempora non magni officia, sit fugit.&lt;/p&gt;</pre>
+
+<table class="table table-condensed">
+<!-- On rows -->
+<tr class="active">...asdsadasdadasdas</tr>
+<tr class="success">...asdsadasdadasdas</tr>
+<tr class="warning">..asdsadasdadasdas.</tr>
+<tr class="danger">...asdsadasdadasdas</tr>
+<tr class="info">...asdsadasdadasdas</tr>
+</table>
+<table class="table table-condensed">
+<!-- On cells (`td` or `th`) -->
+<tr>
+  <td class="active">...asdsadasdadasdas</td>
+  <td class="success">...asdsadasdadasdas</td>
+  <td class="warning">...asdsadasdadasdas</td>
+  <td class="danger">...asdsadasdadasdas</td>
+  <td class="info">...asdsadasdadasdas</td>
+</tr>
+</table>
+
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox"> Проверить меня
+        </label>
+  </div>
+  <button type="submit" class="btn btn-default">Отправить</button>
+</form>
+<P> </P>
+<form class="form-inline" role="form">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail2">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword2">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox"> Запомнить меня
+        </label>
+  </div>
+  <button type="submit" class="btn btn-default">Войти</button>
+</form>
+<p> </p>
+</br>
+
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Пароль</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Запомнить меня
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Войти</button>
+    </div>
+  </div>
+</form>
+<br>
+<input type="text" class="form-control" placeholder="Text input">
+<br>
+<textarea class="form-control" rows="3">Text</textarea>
+<br>
+<div class="checkbox">
+  <label>
+          <input type="checkbox" value="">
+          Первая опция&mdash;выбирайте его, если вам нравится этот пункт
+        </label>
+</div>
+
+<div class="radio">
+  <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+          Первая опция&mdash;выбирайте его, если вам нравится этот пункт
+        </label>
+</div>
+<div class="radio">
+  <label>
+          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+          Вторая опция - это несколько другое, и она отменяет выбор первой опции
+        </label>
+</div>
+<br>
+<label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+    </label>
+<label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+    </label>
+<label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+    </label>
+<br>
+<br>
+<select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+
+<select multiple class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+<br>
+
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <p class="form-control-static">email@example.com</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword" class="col-sm-2 control-label">Пароль</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+</form>
+
+<br>
+
+<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+
+<br>
+<form role="form">
+  <fieldset disabled>
+    <div class="form-group">
+      <label for="disabledTextInput">Неактивный ввод</label>
+      <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+    </div>
+    <div class="form-group">
+      <label for="disabledSelect">Неактивный select menu</label>
+      <select id="disabledSelect" class="form-control">
+        <option>Disabled select</option>
+      </select>
+    </div>
+    <div class="checkbox">
+      <label>
+            <input type="checkbox"> Не могу проверить это
+          </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+  </fieldset>
+</form>
+<br>
+
+<div class="form-group has-success">
+  <label class="control-label" for="inputSuccess1">Успешный ввод</label>
+  <input type="text" class="form-control" id="inputSuccess1">
+</div>
+<div class="form-group has-warning">
+  <label class="control-label" for="inputWarning1">Ввод с предупреждением</label>
+  <input type="text" class="form-control" id="inputWarning1">
+</div>
+<div class="form-group has-error">
+  <label class="control-label" for="inputError1">Ввод с ошибкой</label>
+  <input type="text" class="form-control" id="inputError1">
+</div>
+
+<br>
+
+<div class="form-group has-success has-feedback">
+  <label class="control-label" for="inputSuccess2">Успешный ввод</label>
+  <input type="text" class="form-control" id="inputSuccess2">
+  <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+</div>
+<div class="form-group has-warning has-feedback">
+  <label class="control-label" for="inputWarning2">Ввод с предупреждением</label>
+  <input type="text" class="form-control" id="inputWarning2">
+  <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+</div>
+<div class="form-group has-error has-feedback">
+  <label class="control-label" for="inputError2">Ввод с ошибкой</label>
+  <input type="text" class="form-control" id="inputError2">
+  <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+</div>
+
+<br>
+<form class="form-horizontal" role="form">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Успешный ввод</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="inputSuccess3">
+      <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+    </div>
+  </div>
+</form>
+<br>
+<form class="form-inline" role="form">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label" for="inputSuccess4">Успешный ввод</label>
+    <input type="text" class="form-control" id="inputSuccess4">
+    <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+  </div>
+</form>
+<br>
+<input class="form-control input-lg" type="text" placeholder=".input-lg">
+<input class="form-control" type="text" placeholder="Default input">
+<input class="form-control input-sm" type="text" placeholder=".input-sm">
+
+<select class="form-control input-lg">...</select>
+<select class="form-control">...</select>
+<select class="form-control input-sm">...</select>
+<br>
+<div class="row">
+  <div class="col-xs-2">
+    <input type="text" class="form-control" placeholder=".col-xs-2">
+  </div>
+  <div class="col-xs-3">
+    <input type="text" class="form-control" placeholder=".col-xs-3">
+  </div>
+  <div class="col-xs-4">
+    <input type="text" class="form-control" placeholder=".col-xs-4">
+  </div>
+</div>
+<br>
+<span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+
+<br>
+<!-- Standard button -->
+<button type="button" class="btn btn-default">Default</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">Primary</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">Success</button>
+
+<!-- Contextual button for informational alert messages -->
+<button type="button" class="btn btn-info">Info</button>
+
+<!-- Indicates caution should be taken with this action -->
+<button type="button" class="btn btn-warning">Warning</button>
+
+<!-- Indicates a dangerous or potentially negative action -->
+<button type="button" class="btn btn-danger">Danger</button>
+
+<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+<button type="button" class="btn btn-link">Ссылка</button>
+<br></br>
+<p>
+      <button type="button" class="btn btn-primary btn-lg">Большая кнопка</button>
+      <button type="button" class="btn btn-default btn-lg">Большая кнопка</button>
+    </p>
+<p>
+      <button type="button" class="btn btn-primary">По умолчанию</button>
+      <button type="button" class="btn btn-default">По умолчанию</button>
+    </p>
+<p>
+      <button type="button" class="btn btn-primary btn-sm">Малая кнопка</button>
+      <button type="button" class="btn btn-default btn-sm">Малая кнопка</button>
+    </p>
+<p>
+      <button type="button" class="btn btn-primary btn-xs">Очень малая кнопка</button>
+      <button type="button" class="btn btn-default btn-xs">Очень малая кнопка</button>
+    </p>
+
+
+
+<br> </br>
+<button type="button" class="btn btn-primary btn-lg btn-block">Блок кнопка</button>
+<button type="button" class="btn btn-default btn-lg btn-block">Блок кнопка</button>
+<br> </br>
+<button type="button" class="btn btn-primary btn-lg active">Главная кнопка</button>
+<button type="button" class="btn btn-default btn-lg active">Кнопка</button>
+<br> </br>
+
+<a href="#" class="btn btn-primary btn-lg active" role="button">Главная ссылка</a>
+<a href="#" class="btn btn-default btn-lg active" role="button">Ссылка</a>
+<br> </br>
+<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Главная кнопка</button>
+<button type="button" class="btn btn-default btn-lg" disabled="disabled">Кнопка</button>
+<br> </br>
+
+<a class="btn btn-default" href="#" role="button">Ссылка</a>
+<button class="btn btn-default" type="submit">Кнопка</button>
+<input class="btn btn-default" type="button" value="Input">
+<input class="btn btn-default" type="submit" value="Submit">
+
+<p class="text-muted">...asdsadasdasdasdasd</p>
+<p class="text-primary">..asdsadasdasdasdasd.</p>
+<p class="text-success">.asdsadasdasdasdasd..</p>
+<p class="text-info">..asdsadasdasdasdasd.</p>
+<p class="text-warning">.asdsadasdasdasdasd..</p>
+<p class="text-danger">.asdsadasdasdasdasd..</p>
+
+<p class="bg-primary">..asdasdsadasdadsa.</p>
+<p class="bg-success">.asdasdsadasdadsa..</p>
+<p class="bg-info">.asdasdsadasdadsa..</p>
+<p class="bg-warning">asdasdsadasdadsa...</p>
+<p class="bg-danger">...asdasdsadasdadsa</p>
+
+<br> </br>
+<button type="button" class="close" aria-hidden="true">&times;</button>
+<span class="caret"></span>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Javascripts Inclusion -->
+	<!-- jQuery Core -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  	 
+</body>
+</html>
