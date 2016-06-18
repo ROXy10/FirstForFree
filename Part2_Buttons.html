@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кнопки</title>
+  <!-- Bootstrap -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+    #rect{
+      background-color: green;
+      height: 0;
+      width: 0;
+      border: 0px solid #fff;
+      border-radius: 3px;
+    }  
+    
+    .label label-danger {
+        padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <button type="button" class="btn btn-primary" data-toggle="dropdown">Кнопка 1</button>
+        <div id="rect"></div>
+      </div>
+      <div class="col-md-4">
+        <button type="button" class="btn btn-warning">Кнопка 2<span class="label label-danger"></span>
+        </button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <h2>Счетчик : <span class="count">0</span></h2>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+   <script type="text/javascript">
+    var rectId = $('#rect');
+    var lastButton = $('button:last');
+    var colors = ["	#FFA500", "	#9400D3", "	#66CD00", '	#CD5555'];
+    $('button:first').click(function (){
+      if (rectId.css('width') == '0px') {
+        rectId.animate({ 
+          width: "83px",         
+          height: "100px",         
+          borderWidth: "1px"
+        }, 300); 
+        $('.count').text(parseInt($('.count').text()) + 1);            
+      } else {
+        rectId.animate({ 
+          width: "0px",         
+          height: "0px",         
+          borderWidth: "0px"
+        }, 500);  
+      } 
+    })
+    lastButton.click(function (){
+      if (rectId.css('width') == '0px') {
+        var spanBatton = $('.label-danger')
+        lastButton.animate({ 
+          width: "300px",         
+        }, 300);
+        spanBatton.text('Раскройте прямоугольник');
+      } else {
+        rectId.css("background-color", colors[Math.floor(Math.random() * 3)]);   
+      }         
+    })
+  </script>
+</body>
+</html>
